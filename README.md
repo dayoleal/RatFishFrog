@@ -1,60 +1,60 @@
-# Rat, Fish or Frog? – iOS App com IA para Classificação de Imagens
+# Rat, Fish or Frog? – iOS App with AI for Image Classification
 
-## Sobre o projeto
+## About the Project
 
-Este é um app iOS desenvolvido por eu, Isabela Hissa Pinto, em colaboração com Dayo Leal, Camila Parolin, Matheus Motta, Lucca Pivoto e Kleber Gadelha, cujo objetivo é aplicar **inteligência artificial para classificar imagens como "rato", "peixe" ou "sapo"**.  
-Mesmo que a imagem enviada não pertença a nenhuma dessas categorias, o modelo sempre tentará encaixá-la em uma das três. O resultado? Um experimento divertido, inesperado e tecnicamente instigante.
+This is an iOS app developed by me, Dayo Leal, in collaboration with Isabela Hissa Pinto, Camila Parolin, Matheus Motta, Lucca Pivoto, and Kleber Gadelha, with the goal of applying **artificial intelligence to classify images as "rat", "fish", or "frog"**.  
+Even if the uploaded image does not belong to any of these categories, the model will always try to fit it into one of the three. The result? A fun, unexpected, and technically intriguing experiment.
 
-A proposta surgiu como um exercício de integração entre **CoreML** e **SwiftUI**, mas também explora o comportamento de modelos de machine learning ao lidar com entradas fora do seu escopo original.
+The idea arose as an exercise in integrating **CoreML** and **SwiftUI**, but it also explores the behavior of machine learning models when dealing with inputs outside their original scope.
 
-## Funcionalidades
+## Features
 
-- Upload de qualquer imagem da galeria do usuário.
-- Classificação automática como *rat*, *fish* ou *frog* usando um modelo de IA treinado com dados reais.
-- Interface visual inspirada na estética dos anos 2000/2010 para um toque nostálgico e descontraído.
-- Feedback visual imediato com ícone, rótulo e reações divertidas.
+- Upload any image from the user's gallery.
+- Automatic classification as *rat*, *fish*, or *frog* using an AI model trained on real data.
+- Visual interface inspired by the 2000s/2010s aesthetic for a nostalgic and laid-back feel.
+- Immediate visual feedback with icon, label, and fun reactions.
 
-## Tecnologias utilizadas
+## Technologies Used
 
-- **SwiftUI**: Para o desenvolvimento da interface do usuário de forma moderna, declarativa e responsiva.
-- **CoreML**: Framework da Apple para integrar modelos de machine learning diretamente no app iOS.
-- **Create ML**: Utilizado para treinar o modelo de classificação a partir de datasets.
-- **Kaggle**: Fonte dos datasets de imagens usados para treinar o modelo de classificação entre ratos, peixes e sapos.
-- **Xcode**: Ambiente de desenvolvimento integrado (IDE) para iOS.
+- **SwiftUI**: For developing the user interface in a modern, declarative, and responsive way.
+- **CoreML**: Apple’s framework for integrating machine learning models directly into iOS apps.
+- **Create ML**: Used to train the classification model from datasets.
+- **Kaggle**: Source of the image datasets used to train the model to classify rats, fish, and frogs.
+- **Xcode**: Integrated development environment (IDE) for iOS.
 
-## Como funciona a IA
+## How the AI Works
 
-O modelo de machine learning foi treinado utilizando imagens rotuladas das três classes: *rat*, *fish* e *frog*. As imagens foram divididas em conjuntos de treino e teste, normalizadas e processadas para melhorar a performance do classificador.
+The machine learning model was trained using labeled images of the three classes: *rat*, *fish*, and *frog*. The images were split into training and test sets, normalized, and processed to improve classifier performance.
 
-O modelo foi exportado no formato `.mlmodel` e integrado ao projeto via CoreML, permitindo inferência offline no próprio dispositivo iOS. Isso garante rapidez e privacidade para o usuário.
+The model was exported in `.mlmodel` format and integrated into the project via CoreML, allowing offline inference directly on the iOS device. This ensures speed and user privacy.
 
-## Por que esse projeto?
+## Why This Project?
 
-Além do aprendizado técnico, a intenção era criar algo:
-- Divertido de usar (e compartilhar),
-- Simples de experimentar,
-- Capaz de mostrar como **modelos de IA interpretam o mundo com dados limitados**.
+Besides the technical learning, the intention was to create something:
+- Fun to use (and share),
+- Simple to experiment with,
+- Capable of showing how **AI models interpret the world with limited data**.
 
-O resultado é um app que mistura **tecnologia, humor e nostalgia**, funcionando como uma mini-demostração do potencial (e dos limites) da IA em aplicações do dia a dia.
+The result is an app that blends **technology, humor, and nostalgia**, functioning as a mini-demonstration of the potential (and limits) of AI in everyday applications.
 
-## Como rodar o projeto
+## How to Run the Project
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone 
         https://github.com/hissapinto/RatFishFrog.git
    ```
-2. Abra o projeto no Xcode.
-3. Certifique-se de ter um dispositivo iOS real ou simulador rodando.
+2. Open the project in Xcode.
+3. Make sure you have a real iOS device or simulator running.
 4. Build & Run.
 
-## Capturas de tela
+## Interface
 
 ![rat_fish_frog 001](https://github.com/user-attachments/assets/74cbba56-ad17-4fd4-9bf2-0a5b8f3febe5)
 
-## Créditos
+## Credits
 
-Desenvolvido por:
+Developed by:
 - Isabela Hissa Pinto - https://github.com/hissapinto
 - Dayo Leal - https://github.com/dayoleal
 - Camila Parolin - https://github.com/cparolin
