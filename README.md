@@ -1,4 +1,4 @@
-# Rat, Fish or Frog? – iOS App with AI for Image Classification
+# 🐭🐟🐸 Rat, Fish or Frog? – iOS App with AI for Image Classification
 
 ## About the Project
 
